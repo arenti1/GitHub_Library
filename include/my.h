@@ -20,4 +20,5 @@ char my_revfind(char *base, int a);
 char *my_revstr(char *str);
 char *my_strcpy(char *dest, char const *src);
 char *my_strncpy(char *dest, char const *src, int n);
+int my_binaryconverter(int n);
 #endif

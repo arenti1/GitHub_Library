@@ -17,6 +17,7 @@ SRC	=	my_putchar.c	\
 		my_revfind.c	\
 		my_revindexconversion.c	\
 		my_indexconversion.c	\
+		my_binaryconverter.c	\
 
 OBJ	=	$(SRC:.c=.o)
 
