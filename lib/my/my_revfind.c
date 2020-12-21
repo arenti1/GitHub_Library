@@ -2,9 +2,10 @@
 ** EPITECH PROJECT, 2020
 ** my_revfind
 ** File description:
-**
+** 
 */
 #include "my.h"
+
 char my_revfind(char *base, int a)
 {
     int i;

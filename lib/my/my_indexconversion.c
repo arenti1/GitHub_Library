@@ -2,10 +2,11 @@
 ** EPITECH PROJECT, 2020
 ** indexconversion
 ** File description:
-**
+** 
 */
 #include "my.h"
-char* indexconversion(char *base, char *a)
+
+char *indexconversion(char *base, char *a)
 {
     int i;
     char c;

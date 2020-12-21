@@ -2,10 +2,11 @@
 ** EPITECH PROJECT, 2020
 ** revindexconversion
 ** File description:
-**
+** 
 */
 #include "my.h"
-char* revindexconversion(char *base, char *a)
+
+char *revindexconversion(char *base, char *a)
 {
     int i;
 

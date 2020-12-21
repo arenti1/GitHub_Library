@@ -13,17 +13,16 @@ char *my_revstr(char *str)
 
     a = 0;
     i = 0;
-    while(str[a] != '\0'){
+    while (str[a] != '\0'){
         a++;
     }
-    while(a > i){
+    while (a > i){
         temp = str[i];
         str[i] = str[a];
         str[a] = temp;
         a--;
         i++;
     }
-    return (0);
+    return 0;
 }
 
-    

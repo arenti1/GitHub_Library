@@ -7,7 +7,7 @@
 #include<unistd.h>
 #include"my.h"
 
-int my_put_nbr(int nbr)
+int my_put_nbr(long nbr)
 {
     int nbr2;
 
@@ -25,3 +25,4 @@ int my_put_nbr(int nbr)
     }
     return (0);
 }
+

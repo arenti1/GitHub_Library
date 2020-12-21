@@ -19,7 +19,7 @@ char *my_strncpy(char *dest , char  const *src, int n)
     while (src[a] != '\0'){
         a++;
     }
-    while ((e != a)&&(src[i] != '\0')){
+    while ((e != a) && (src[i] != '\0')){
         dest[i] = src[i];
         i++;
         e++;

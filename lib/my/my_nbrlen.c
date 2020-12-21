@@ -1,8 +1,15 @@
-#include "my.h"
+/*
+** EPITECH PROJECT, 2020
+** my_nbrlen
+** File description:
+** 
+*/
 
-int my_nbrlen(int n)
+#include"my.h"
+
+int my_nbrlen(long n)
 {
-    int count;
+    long count;
 
     count = 0;
     while (n != 0){
@@ -11,3 +18,4 @@ int my_nbrlen(int n)
     }
     return count;
 }
+

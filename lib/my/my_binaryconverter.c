@@ -2,10 +2,11 @@
 ** EPITECH PROJECT, 2020
 ** binaryconverter
 ** File description:
-**
+** 
 */
 #include"my.h"
-int binaryconverter(int n)
+
+int my_binaryconverter(int n)
 {
     int i = 1;
     int j;
@@ -20,6 +21,5 @@ int binaryconverter(int n)
         i = i * 10;
         n = n / 2;
     }
-    printf("%d\n", binno);
     return binno;
 }
