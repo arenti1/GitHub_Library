@@ -5,12 +5,14 @@
 ## 
 ##
 
-SRC	=	SRC/my_putchar.c	\
-		SRC/my_strlen.c	\
-		SRC/my_put_nbr.c	\
-		SRC/my_putstr.c	\
-		SRC/my_nbrlen.c	\
-		SRC/my_printf.c	\
+SRC	=	lib/my/my_putchar.c	\
+		lib/my/my_strlen.c	\
+		lib/my/my_put_nbr.c	\
+		lib/my/my_putstr.c	\
+		lib/my/my_nbrlen.c	\
+		lib/my/my_printf.c	\
+		lib/my/my_count_words.c	\
+		lib/my/is_char_alpha.c	\
 
 SRC2	=	my_putchar.c	\
 		my_strlen.c	\
@@ -18,6 +20,8 @@ SRC2	=	my_putchar.c	\
 		my_putstr.c	\
 		my_nbrlen.c	\
 		my_printf.c	\
+		my_count_words.c	\
+		is_char_alpha.c	\
 
 OBJ	=	$(SRC2:.c=.o)
 
@@ -28,7 +32,6 @@ all: $(NAME)
 $(NAME):
 	gcc -c $(SRC)
 	ar rc $(NAME) $(OBJ)
-	gcc -o $(NAME) $(OBJ) -Wall -Werror -Wextra
 	rm -f $(OBJ)
 
 clean:

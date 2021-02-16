@@ -5,7 +5,6 @@
 ** 
 */
 
-
 #ifndef MY_H_
 #define MY_H_
 
@@ -20,4 +19,6 @@ int my_put_nbr(long nbr);
 void my_putchar(char c);
 int my_strlen(char *c);
 void my_printf(char *str, ...);
+int my_count_words(char *str);
+int is_char_alpha(char a);
 #endif
