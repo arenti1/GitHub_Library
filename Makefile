@@ -2,7 +2,7 @@
 ## EPITECH PROJECT, 2020
 ## Makefile
 ## File description:
-## 
+## Makefile
 ##
 
 SRC	=	lib/my/my_putchar.c	\
@@ -13,6 +13,7 @@ SRC	=	lib/my/my_putchar.c	\
 		lib/my/my_printf.c	\
 		lib/my/my_count_words.c	\
 		lib/my/is_char_alpha.c	\
+		lib/my/my_atoi.c	\
 
 SRC2	=	my_putchar.c	\
 		my_strlen.c	\
@@ -22,16 +23,18 @@ SRC2	=	my_putchar.c	\
 		my_printf.c	\
 		my_count_words.c	\
 		is_char_alpha.c	\
+		my_atoi.c	\
 
 OBJ	=	$(SRC2:.c=.o)
 
-NAME	=	libmy.a
+NAME	=	project
 
 all: $(NAME)
 
 $(NAME):
 	gcc -c $(SRC)
 	ar rc $(NAME) $(OBJ)
+	gcc -o $(NAME) $(OBJ)
 	rm -f $(OBJ)
 
 clean:
