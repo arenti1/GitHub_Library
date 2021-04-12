@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2020
 ** my_putchar
 ** File description:
-** 
+** my_putchar.c
 */
 
 #include <unistd.h>

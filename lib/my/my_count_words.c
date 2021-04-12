@@ -2,9 +2,8 @@
 ** EPITECH PROJECT, 2020
 ** my_count_words.c
 ** File description:
-** 
+** my_count_words.c
 */
-
 #include"my.h"
 
 int my_count_words(char *str)

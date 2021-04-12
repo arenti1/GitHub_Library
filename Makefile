@@ -14,6 +14,8 @@ SRC	=	lib/my/my_putchar.c	\
 		lib/my/my_count_words.c	\
 		lib/my/is_char_alpha.c	\
 		lib/my/my_atoi.c	\
+		lib/my/read_file.c	\
+		src/main.c	\
 
 SRC2	=	my_putchar.c	\
 		my_strlen.c	\
@@ -24,6 +26,8 @@ SRC2	=	my_putchar.c	\
 		my_count_words.c	\
 		is_char_alpha.c	\
 		my_atoi.c	\
+		read_file.c	\
+		main.c	\
 
 OBJ	=	$(SRC2:.c=.o)
 

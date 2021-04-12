@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2020
 ** my_put_nbr.c
 ** File description:
-** 
+** my_put_nbr.c
 */
 #include<unistd.h>
 #include"my.h"

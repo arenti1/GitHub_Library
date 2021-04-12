@@ -2,9 +2,8 @@
 ** EPITECH PROJECT, 2020
 ** my_putstr.c
 ** File description:
-** 
+** my_putstr.c
 */
-
 #include <unistd.h>
 #include"my.h"
 

@@ -4,7 +4,6 @@
 ** File description:
 ** my_atoi.c
 */
-
 int my_atoi(char *str)
 {
     int res = 0;

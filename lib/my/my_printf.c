@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2020
-** my_printf
+** my_printf.c
 ** File description:
 ** my_printf.c
 */
