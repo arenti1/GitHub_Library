@@ -24,4 +24,5 @@ int is_char_alpha(char a);
 int my_atoi(char *str);
 int my_strcmp(char *str1, char *str2);
 int get_random(int lower, int upper);
+char **bookmaker(char *str, char delim);
 #endif

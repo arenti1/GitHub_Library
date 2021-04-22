@@ -17,6 +17,7 @@ SRC	=	lib/my/my_putchar.c	\
 		lib/my/read_file.c	\
 		lib/my/my_strcmp.c	\
 		lib/my/get_random.c	\
+		lib/my/bookmaker.c	\
 		src/main.c	\
 
 SRC2	=	my_putchar.c	\
@@ -31,6 +32,7 @@ SRC2	=	my_putchar.c	\
 		read_file.c	\
 		my_strcmp.c	\
 		get_random.c	\
+		bookmaker.c	\
 		main.c	\
 
 OBJ	=	$(SRC2:.c=.o)
