@@ -22,4 +22,5 @@ void my_printf(char *str, ...);
 int my_count_words(char *str);
 int is_char_alpha(char a);
 int my_atoi(char *str);
+int my_strcmp(char *str1, char *str2);
 #endif

@@ -15,6 +15,7 @@ SRC	=	lib/my/my_putchar.c	\
 		lib/my/is_char_alpha.c	\
 		lib/my/my_atoi.c	\
 		lib/my/read_file.c	\
+		lib/my/my_strcmp.c	\
 		src/main.c	\
 
 SRC2	=	my_putchar.c	\
@@ -27,6 +28,7 @@ SRC2	=	my_putchar.c	\
 		is_char_alpha.c	\
 		my_atoi.c	\
 		read_file.c	\
+		my_strcmp.c	\
 		main.c	\
 
 OBJ	=	$(SRC2:.c=.o)
