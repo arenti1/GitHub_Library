@@ -5,7 +5,7 @@
 ** get_random.c
 */
 
-#include "../include/my.h"
+#include "../../include/my.h"
 
 int get_random(int lower, int upper)
 {
